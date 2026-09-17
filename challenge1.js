@@ -1,0 +1,11 @@
+const prompt = require('prompt-sync')();
+const nom = prompt('Saisir ton nom : ');
+const pr = prompt('Saisir ton prénom : ');
+const age = prompt('Saisir ton age :');
+const sex = prompt('Saisir ton sex : ');
+const adr = prompt('Saisir ton adresse gmail : ');
+console.log(`nom : ${nom}`);
+console.log(`prénom : ${pr}`);
+console.log(`age : ${age}`);
+console.log(`sex : ${sex}`);
+console.log(`adresse gmail :  ${adr}`);
